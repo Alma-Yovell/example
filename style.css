@@ -1,0 +1,180 @@
+
+/* Set up fonts */
+@font-face {
+    font-family: Heebo;
+    src: url(assets/fonts/Heebo-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Karantina-Regular;
+    src: url(assets/fonts/Karantina-Regular.ttf);
+}
+
+@font-face {
+    font-family: Karantina-Bold;
+    src: url(assets/fonts/Karantina-Bold.ttf);
+}
+
+@font-face {
+    font-family: Karantina-Light;
+    src: url(assets/fonts/Karantina-Light.ttf);
+}
+
+/* #header{
+    z-index: 1;
+}
+
+#main{
+    z-index: 1;
+}
+
+#footer{
+    z-index: 1;
+} */
+
+.h1{
+    text-align: center;
+    font-family: Karantina-Bold;
+    font-size: 20vmin;
+}
+
+.h2{
+    text-align: center;
+    font-family: Karantina-Light;
+    font-size: 6vmin;
+}
+
+.text{
+    font-family: Heebo;
+    direction: rtl;
+}
+
+/* General styles */
+#app{
+    direction: rtl;
+    overflow: hidden;
+}
+
+#collegeLogo {
+    position: absolute; 
+    width: 156px; 
+    top: 0; 
+    right: 2vw; 
+}
+
+#orangeCorner {
+    position: absolute; 
+    width: 171px; 
+    top: 0;
+    left: 0; 
+}
+
+#navBar {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+
+#hamBtn {
+    width: 45px;
+    position: absolute;
+    right: 77vw;
+    top: 1vh;
+}
+
+#main {
+    position: relative;
+    top: 20vh;
+    height: 70vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* border: 2px black solid; */
+    overflow:auto;
+    direction: ltr;
+
+    /* Styling the scrollbar */
+    scrollbar-width: bold ; 
+    scrollbar-color: #175a85 #f1f1f1;
+}
+
+
+#blueCorner {
+    position: absolute; 
+    width: 171px; 
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.btns{
+    background-color: transparent;
+    border: 2px black solid;
+    border-radius: 10vh;
+    font-family: Heebo;
+    padding: 1vh;
+    font-size: 3.5vmin;
+    width: 25vw;
+    position: absolute;
+}
+
+#nextBtn{
+    bottom: 10vh;
+    right: 19vw;
+}
+
+#prevBtn{
+    bottom: 10vh;
+    left: 25vw;
+}
+
+/* navBar------------------------------------------------- */
+
+/* #openNav{
+    width: 100vw;
+    height: 100vh;
+    background-color: #175a85;
+    z-index: 2;
+} */
+
+
+/* pop-up ------------------------------------------------- */
+
+
+#popUpDiv{
+    position: absolute;
+    top: 20vh;
+    left: 5vh;
+    height: 56vh;
+    width: 77vw;
+    background-color: #efefef;
+    border-radius: 4vh;
+    display: none;
+}
+
+#Xbtn{
+    position: absolute;
+    top: 3vh;
+    left: 30vh;
+    width: 7VW;
+}
+
+#title3{
+    position: absolute;
+    top: 2vh;
+    left: 27vw;
+    font-size: 12vmin;
+}
+
+#popUpText{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 40vh;
+    overflow: auto;
+    position: absolute;
+    direction: ltr;
+    left: 3vw;
+    top: 13vh;
+    width: 52vw;
+    /* border: 1px black solid; */
+    scrollbar-color: #175a85 #f1f1f1;
+}
